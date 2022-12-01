@@ -99,32 +99,114 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Manual de funciones y competencias',
+      referencia:
+        'Decreto 770 de 2005. Por el cual se establece el sistema de funciones y de requisitos generales para los empleos públicos correspondientes a los niveles jerárquicos pertenecientes a los organismos y entidades del Orden Nacional, a que se refiere la ley 909 de 2004. Marzo 17 de 2005. ',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16126#:~:text=Por%20el%20cual%20se%20establece,la%20Ley%20909%20de%202004. ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Manual de funciones y competencias',
+      referencia:
+        'Departamento Administrativo de la Función Pública. (2021). <em>Plan Nacional de Competencias Laborales en el Sector Público.  <em>',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/38715883  ',
+    },
+
+    {
+      tema: 'Estrategias de comunicación organizacional',
+      referencia:
+        'Mendoza, S., Rodríguez, D. & Patoni, R. (2012). <em> Estrategias de comunicación organizacional. Contribuciones a las Ciencias Sociales. <em>',
+      tipo: 'Artículo',
+      link: 'https://www.eumed.net/rev/cccss/21/jpr.html   ',
+    },
+    {
+      tema: 'Estrategias de comunicación organizacional',
+      referencia:
+        'Bonilla P. (2022). <em>7 tipos de cultura organizacional más comunes.<em>',
+      tipo: 'Artículo',
+      link:
+        'https://blog.acsendo.com/infografia-tipos-de-cultura-organizacional   ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Competencias',
+      significado:
+        'son aquellas habilidades, capacidades y conocimientos que una persona tiene para cumplir eficientemente determinada tarea.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Comunicación',
+      significado:
+        'es la acción consciente de intercambiar información entre dos o más participantes con el fin de transmitir un mensaje.',
+    },
+    {
+      termino: 'Funciones',
+      significado:
+        'actividades particulares que realiza una persona dentro de un sistema de elementos, personas, relaciones, etc., con un fin determinado.',
+    },
+    {
+      termino: 'Gestión',
+      significado:
+        'conjunto de operaciones que se realizan para dirigir y administrar un negocio o una empresa.',
+    },
+    {
+      termino: 'Información',
+      significado:
+        'está constituida por un grupo de datos ya supervisados y ordenados, que sirven para construir un mensaje, basado en un cierto fenómeno o ente.',
+    },
+    {
+      termino: 'Manual',
+      significado:
+        'libro o folleto en el cual se recogen los aspectos básicos, esenciales de una materia.',
+    },
+    {
+      termino: 'Organización',
+      significado:
+        'estructura ordenada donde coexisten e interactúan personas con diversos roles, responsabilidades o cargos, que buscan cumplir con unos objetivos esperados.',
+    },
+    {
+      termino: 'Procedimiento',
+      significado:
+        'conjunto de acciones que tienen que realizarse todas igualmente, para obtener los mismos resultados bajo las mismas circunstancias.',
+    },
+    {
+      termino: 'Proceso',
+      significado:
+        'procesamiento o conjunto de operaciones a que se somete un elemento para elaborarla o transformarla.',
+    },
+    {
+      termino: 'Sistemas',
+      significado:
+        'conjunto ordenado de normas y procedimientos que regulan el funcionamiento de un grupo o colectividad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Decreto 815 de 2018. Por el cual se modifica el Decreto 1083 de 2015, Único Reglamentario del Sector de Función Pública, en lo relacionado con las competencias laborales generales para los empleos públicos de los distintos niveles jerárquicos. Mayo 8 de 2018.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86304',
+    },
+    {
+      referencia:
+        'Decreto 1083 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Función Pública. Mayo 26 de 2015. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=62866#1083',
+    },
+    {
+      referencia:
+        'Función Pública. (s.f.). <em> Manual de funciones y competencias laborales. <em>',
+      link:
+        'https://www.funcionpublica.gov.co/preguntas-frecuentes/-/asset_publisher/sqxafjubsrEu/content/manual-de-funciones-y-competencias-laborales',
+    },
+    {
+      referencia:
+        'Función Pública. (2018). <em> Guía para Establecer o Modificar el Manual de Funciones y de Competencias Laborales.<em> ',
+      link:
+        'https://www.funcionpublica.gov.co/documents/418548/34150781/Gu%C3%ADa+para+establecer+o+modificar+el+manual+de+funciones+y+de+competencias+laborales+-+Versi%C3%B3n+2+-+Abril+2018.pdf/caa81178-376a-e0f2-2dfa-e859a8824538?t=1531756428307',
     },
   ],
   creditos: {
