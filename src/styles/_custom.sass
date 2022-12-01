@@ -1,15 +1,68 @@
+.bg4
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -50px
+    margin-top: 10px 
+    width: calc( 100% + 96px )
+    height: 400%       
+    background-image: url('../assets/curso/temas/degrade.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/Introduccion/Fondo1.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: top 
+
+.bloque-fondo2
+  background-image: url(../assets/curso/temas/Tema1/FondoTema1.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom 
+
+.bloque-fondo3
+  background-image: url(../assets/curso/temas/Tema2/Fondo3.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
+
+.bloque-fondo4
+  background-image: url(../assets/curso/temas/Tema3/FondoTema3.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: top
+
+  
+  
+  
+  
+  
+  
+  
+  
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 83%
   &-2
+    animation: float1 2.2s ease-in-out infinite alternate
+    position: absolute
+    top: 19%
+    right: 73%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 23%
+    right: 20%
 
 @keyframes float1
   0%
@@ -17,3 +70,90 @@
 
   100%
     transform: translateY(0px)
+
+
+figcaption
+  background: white !important
+  color: #7041C2
+  border-top: 10px solid #7041C2
+  box-shadow: 0px 2px 8px darkgrey
+
+  
+
+
+.cajon.color-primario
+  background-color: #D9CCEF
+
+.tarjeta.color-acento-contenido
+  background-color: #F7F4FF
+
+
+.bloque-texto-g__texto2
+  right: 150px    
+  background-color: rgba(255, 255, 255, 0.8)
+  position: sticky
+  width: 60%
+
+.fas.fa-angle-right.color
+  color: #7FC733
+.clr--gris
+  background-color: #F7F4FF
+
+.acordion__activo 
+  background-color: #FFFBEA
+
+.pasos-a__linea__esquina__linea
+  border-radius: 0
+
+.clr--yellow
+  background-color: #FDF2C5
+  border: 5px solid #F7CA2E
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.bgp
+  background: linear-gradient(220deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 72%, rgba(247,202,46,1) 87%, rgba(247,202,46,1) 88%, rgba(247,202,46,1) 90%, rgba(247,202,46,1) 92%, rgba(247,202,46,1) 94%, rgba(247,202,46,1) 96%, rgba(247,202,46,1) 98%, rgba(247,202,46,1) 100%)
+  border-radius: 5px 
+  -webkit-backdrop-filter: blur(1px)
+  backdrop-filter: blur(1px)
+
+
+.cajon.color-acento-contenido
+  background-color: #FEF7DC
+
+.tarjeta.color-acento-botone
+  background-color: #F6F6F6 
+  border-left: 40px solid #7FC733
+
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #EBCEE2
+  color: black
+
+.linea-tiempo-d__item__content
+  background-color: #EBCEE2
+
+.tarjeta.color-acento-contenido.amarillo
+  background-color: #FDF2C5
+
+.bloque-texto-g__texto3
+  right: 500px    
+  background-color: rgba(255, 255, 255, 0.9)
+  position: sticky
+  width: 60%
+
+@media (max-width: 500px)
+  .bloque-texto-g__texto2
+    width: 100% 
+
+
+.bloque-texto-g__img
+  left: 508px
+
+
+
+.imagen-decorativa-7
+  animation: float1 3s ease-in-out infinite alternate
+  top: 18%
+  right: 4%
