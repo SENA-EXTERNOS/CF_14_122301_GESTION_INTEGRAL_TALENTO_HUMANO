@@ -81,10 +81,10 @@
       .row.mt-5.justify-content-center
         .col-10
           .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__img.carimg(
+            .bloque-texto-g__img.carimg2(
               :style="{'background-image': `url(${require('@/assets/curso/temas/Tema1/IMG3.svg')})`}"
             )
-            .bloque-texto-g__texto2.p-4
+            .bloque-texto-g__texto4.p-4
               .col-10.col-lg-12
                 ul.mt-4.lista-ul--
                   li 
