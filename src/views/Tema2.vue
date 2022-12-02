@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo3
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -38,46 +38,49 @@
             figure
               img(src='@/assets/curso/temas/Tema2/pestania2.png', alt='Texto que describa la imagen')
              
-    .row.justify-content-start.align-items-center.mb-2.mt-5       
+    .row.justify-content-start.align-items-center.mb-2.mt-5        
       .col-lg-5
         .bgp.p-1
           h3.mb-0 Comunicación interna y externa
 
-          
-    .row.mt-4.px-5
-      .col-6.col-lg-1.px-1
-        .bg4.px-1
-          figure
-            img(src='@/assets/curso/temas/Tema2/img2.png', alt='Texto que describa la imagen').imagen-decorativa-7
+    
+    .bg3
+      .row.mt-4.px-5
+        .col-lg-1.px1
+          .bg4.px-1
+            figure
+              img(src='@/assets/curso/temas/Tema2/img2.png', alt='Texto que describa la imagen').imagen-decorativa-7
 
-      .col-5.col-lg-11.px-5
-        p La comunicación interna hace mención a toda la información que se genera, manipula o se utiliza dentro de la organización; es considerada como una herramienta gerencial aplicada en los niveles jerárquicos con el propósito de alcanzar todos los objetivos estratégicos, misionales, operativos, culturales y comportamentales de la empresa. 
+        .col-lg-11.px-4
+          p La comunicación interna hace mención a toda la información que se genera, manipula o se utiliza dentro de la organización; es considerada como una herramienta gerencial aplicada en los niveles jerárquicos con el propósito de alcanzar todos los objetivos estratégicos, misionales, operativos, culturales y comportamentales de la empresa. 
 
 
-        .col-5.col-lg-11.px-5
-            .cajon.color-acento-contenido.p-4            
-              p Las principales funciones de la comunicación interna son:
-              ul.mt-2.lista-ul--
-                  li 
-                    i.fas.fa-angle-right.color
-                    |   Instaurar, perfeccionar o consolidar la imagen corporativa de la organización.
-                  li
-                    i.fas.fa-angle-right.color
-                    |   Apoyar el logro de los objetivos, planes o programas y proyectos.
-                  li
-                    i.fas.fa-angle-right.color
-                    |   Reducir los conflictos y los malos climas organizacionales.
-                  li
-                    i.fas.fa-angle-right.color
-                    |   Instaurar espacios de libre expresión para que los empleados puedan brindar sus aportes y opiniones.
+          .row.justify-content-center.mb-4.mt-4     
+            .col-lg-10.px-1.col-xs-12
+              .cajon.color-acento-contenido.p-4            
+                p Las principales funciones de la comunicación interna son:
+                ul.mt-2.lista-ul--
+                    li 
+                      i.fas.fa-angle-right.color
+                      |   Instaurar, perfeccionar o consolidar la imagen corporativa de la organización.
+                    li
+                      i.fas.fa-angle-right.color
+                      |   Apoyar el logro de los objetivos, planes o programas y proyectos.
+                    li
+                      i.fas.fa-angle-right.color
+                      |   Reducir los conflictos y los malos climas organizacionales.
+                    li
+                      i.fas.fa-angle-right.color
+                      |   Instaurar espacios de libre expresión para que los empleados puedan brindar sus aportes y opiniones.
 
-                  li
-                    i.fas.fa-angle-right.color
-                    |   Mantener una información actualizada y veraz, para los integrantes de la organización.
-                  li
-                    i.fas.fa-angle-right.color
-                    |   Promover la buena comunicación entre todos los participantes y niveles de la empresa.
-                  
+                    li
+                      i.fas.fa-angle-right.color
+                      |   Mantener una información actualizada y veraz, para los integrantes de la organización.
+                    li
+                      i.fas.fa-angle-right.color
+                      |   Promover la buena comunicación entre todos los participantes y niveles de la empresa.
+                
+
     .row.mt-4
       .col-lg-12
         p La comunicación externa se conoce con el nombre de “comunicación comercial” y hace referencia a todo el intercambio o flujo de información que manipula la organización; está destinada para los públicos externos, sea de manera directa o a través de intermediarios, con el objetivo de mantener o mejorar sus relaciones corporativas, proyectar una imagen corporativa favorable y promover los productos o servicios; se refiere a los movimientos que la organización dirige hacia los agentes externos, consumidores y proveedores, inversores o sociedad, con el objetivo de generar, o reforzar las relaciones entre la compañía y los diferentes públicos.
@@ -105,30 +108,32 @@
     p.mt-4 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
     p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos.
 
-    ImagenInfografica.color-acento-botones
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/Tema2/img3.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mt-2
+      .col-lg-9
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/Tema2/img3.svg', alt='Texto que describa la imagen')
+              
+          .tarjeta.color-acento-botone.p-3(x="35%" y="22%" numero="+")
+            .h5.mb-2 Código
+            p Es el lenguaje o conjunto de reglas que se usan para transmitir el mensaje, y el cual debe ser común entre el emisor y el receptor, para que la información pueda ser entendida apropiadamente. Como ejemplos de códigos de comunicación se pueden citar: la gramática de un lenguaje o los algoritmos de un sistema informático.
           
-      .tarjeta.color-acento-botone.p-3(x="35%" y="22%" numero="+")
-        .h5.mb-2 Código
-        p Es el lenguaje o conjunto de reglas que se usan para transmitir el mensaje, y el cual debe ser común entre el emisor y el receptor, para que la información pueda ser entendida apropiadamente. Como ejemplos de códigos de comunicación se pueden citar: la gramática de un lenguaje o los algoritmos de un sistema informático.
-      
-      .tarjeta.color-acento-botone.p-3(x="58%" y="10%" numero="+")
-        .h5.mb-2 Mensaje
-        p Es el contenido de la información que envía el emisor al destinatario.
+          .tarjeta.color-acento-botone.p-3(x="58%" y="10%" numero="+")
+            .h5.mb-2 Mensaje
+            p Es el contenido de la información que envía el emisor al destinatario.
 
-      .tarjeta.color-acento-botone.p-3(x="49%" y="48%" numero="+")
-        .h5.mb-2 Canal
-        p Es el medio o vía que usa el emisor para enviarle el mensaje al destinatario. Por ejemplo: correo electrónico, teléfono, etc.
+          .tarjeta.color-acento-botone.p-3(x="49%" y="48%" numero="+")
+            .h5.mb-2 Canal
+            p Es el medio o vía que usa el emisor para enviarle el mensaje al destinatario. Por ejemplo: correo electrónico, teléfono, etc.
 
-      .tarjeta.color-acento-botone.p-3(x="90%" y="45%" numero="+")
-        .h5.mb-2 Receptor
-        p Es quien recibe el mensaje, es decir, el destinatario.
+          .tarjeta.color-acento-botone.p-3(x="90%" y="45%" numero="+")
+            .h5.mb-2 Receptor
+            p Es quien recibe el mensaje, es decir, el destinatario.
 
-      .tarjeta.color-acento-botone.p-3(x="8%" y="49%" numero="+")
-        .h5.mb-2 Emisor
-        p Es quien envía el mensaje, es decir, el origen de la comunicación.
+          .tarjeta.color-acento-botone.p-3(x="8%" y="49%" numero="+")
+            .h5.mb-2 Emisor
+            p Es quien envía el mensaje, es decir, el origen de la comunicación.
 
 
     .row.justify-content-start.align-items-center.mb-2.mt-5       

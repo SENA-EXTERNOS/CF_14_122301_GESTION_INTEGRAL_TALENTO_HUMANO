@@ -27,20 +27,59 @@
   background-size: contain
   background-position: bottom 
 
-.bloque-fondo3
-  background-image: url(../assets/curso/temas/Tema2/Fondo3.png)
-  background-repeat: no-repeat
-  background-size: contain
-  background-position: center
+.bg3
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
 
-.bloque-fondo4
-  background-image: url(../assets/curso/temas/Tema3/FondoTema3.png)
-  background-repeat: no-repeat
-  background-size: contain
-  background-position: top
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -78px
+    width: calc( 100% + 96px )
+    height: 270%       
+    background-image: url('../assets/curso/temas/Tema2/Fondo3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
 
+
+.bg5
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -122px
+    width: calc( 100% + 96px )
+    height: 430%       
+    background-image: url('../assets/curso/temas/Tema2/Fondo3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+
+.bg6
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -48px
+    width: calc( 100% + 96px )
+    height: 180%       
+    background-image: url('../assets/curso/temas/Tema3/FondoTema3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
   
-  
+
   
   
   
@@ -96,7 +135,7 @@ figcaption
   margin-left: -509px
 
 .bloque-texto-g__img.carimg2
-  margin-left: -509px
+  margin-left: -479px
 
 .fas.fa-angle-right.color
   color: #7FC733
@@ -153,7 +192,7 @@ figcaption
 
 
 .bloque-texto-g__img
-  left: 508px
+  left: 478px
 
 
 
@@ -161,3 +200,94 @@ figcaption
   animation: float1 3s ease-in-out infinite alternate
   top: 18%
   right: 4%
+
+.banner-principal-decorativo
+  &-6
+    animation: float1 s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+    display: none
+  &-5
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+  &-4
+    animation: float1 1.4s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+  &-3
+    animation: float1 1.3s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+  &-2
+    animation: float1 1.2s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+  &-1
+    animation: float1 1s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 81%
+  &-7
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
+    top: 37%
+    right: 79%                    
+  &-8
+    animation: float3 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
+    top: 16%
+    right: 66%
+  &-9
+    animation: float4 3.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
+    top: 25%
+    right: 15% 
+
+
+
+@keyframes float1
+  0%
+    opacity: 1
+
+  20%
+    opacity: 1
+
+  100%
+    opacity: 0 
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-20px) rotate(-180deg)  
+    
+@keyframes float3
+  0%
+    transform: translateY(20px)
+
+  50%
+    transform: translateY(0px)
+  100%
+    transform: rotate(-10deg)    
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(-20px) rotate(180deg)
+
+
+

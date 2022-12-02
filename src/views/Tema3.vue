@@ -1,25 +1,27 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo4
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 3
-      h1 Procesos y procedimientos de la organización – Sistemas de gestión
-    .row.mt-4.px-5
-      .col-6.col-lg-1.px-1
-        .bg4.px-1
-          figure
-             img(src='@/assets/curso/temas/Tema3/img1.png', alt='Texto que describa la imagen').imagen-decorativa-7
-              
-        
-      .col-5.col-lg-11.px-5
-        p Contar con el diseño de los diferentes 
-          b procesos 
-          | y la descripción de los 
-          b procedimientos 
-          | se convierte en un aspecto importante y clave para una empresa, porque al no contar con ninguno de ellos, la situación se puede ejemplificar asociándolo con: construir un edificio sin tener los planos definidos.
-  
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo2
+    .bg6  
+      .titulo-principal.color-acento-contenido
+        .titulo-principal__numero
+          span 3
+        h1 Procesos y procedimientos de la organización – Sistemas de gestión
+      
+      .row.mt-4.px-5
+        .col-lg-1.px1
+          .bg4.px-1
+            figure
+              img(src='@/assets/curso/temas/Tema3/img1.png', alt='Texto que describa la imagen').imagen-decorativa-7
+                
+          
+        .col-lg-11.px-4
+          p Contar con el diseño de los diferentes 
+            b procesos 
+            | y la descripción de los 
+            b procedimientos 
+            | se convierte en un aspecto importante y clave para una empresa, porque al no contar con ninguno de ellos, la situación se puede ejemplificar asociándolo con: construir un edificio sin tener los planos definidos.
+    
     p.mt-5 Ahora se estudiará la definición de cada uno de estos términos: 
 
     TabsC.color-acento-contenido
@@ -47,13 +49,14 @@
             figure
               img(src='@/assets/curso/temas/Tema2/pestania2.png', alt='Texto que describa la imagen')
              
-    .row.justify-content-center.mb-4.mt-4       
-      .col-lg-10.px-1.col-xs-12
-        .cajon.color-acento-contenido.p-4            
-          p Por consiguiente, es posible concluir que la diferencia entre proceso y procedimiento se basa en que un proceso debe cumplir con un objetivo general, mientras que un procedimiento, cumple con un objetivo más específico, como por ejemplo una tarea; en el proceso intervienen varias personas, mientras que el procedimiento lo realiza una persona o una misma área; el proceso tiene etapas, el procedimiento tiene pasos o tareas, en el proceso su ejecución es continua, en el procedimiento su ejecución es discontinua.
+    .bg5  
+      .row.justify-content-center.mb-4.mt-4       
+        .col-lg-10.px-1.col-xs-12
+          .cajon.color-acento-contenido.p-4            
+            p Por consiguiente, es posible concluir que la diferencia entre proceso y procedimiento se basa en que un proceso debe cumplir con un objetivo general, mientras que un procedimiento, cumple con un objetivo más específico, como por ejemplo una tarea; en el proceso intervienen varias personas, mientras que el procedimiento lo realiza una persona o una misma área; el proceso tiene etapas, el procedimiento tiene pasos o tareas, en el proceso su ejecución es continua, en el procedimiento su ejecución es discontinua.
 
 
-    p.mt-4 Los procesos dentro de la organización, se enfocan en una secuencia estructurada de actividades que, al final, producen un producto o servicio específico de valor para el usuario. Entre los procesos que se pueden destacar se encuentran los siguientes:
+      p.mt-4 Los procesos dentro de la organización, se enfocan en una secuencia estructurada de actividades que, al final, producen un producto o servicio específico de valor para el usuario. Entre los procesos que se pueden destacar se encuentran los siguientes:
 
     .row.mt-4
       .col-lg-3
@@ -81,12 +84,12 @@
                     p.mt3 Se trata de los procesos de apoyo que ayudan directamente a cumplir con los objetivos de la empresa. Hablamos de control de calidad, sistemas de información, etc. Se podría decir que este tipo de procesos cumplen la función de una herramienta clave para la ejecución de los demás procesos de la empresa.
     
       .row.mt-4.px-5
-        .col-6.col-lg-1.px-1
+        .col-lg-1.px1
           .bg4.px-1
             figure
-              img(src='@/assets/curso/temas/Tema3/img5.png', alt='Texto que describa la imagen').imagen-deco
+              img(src='@/assets/curso/temas/Tema3/img5.png', alt='Texto que describa la imagen').imagen-decorativa-7
 
-        .col-5.col-lg-11.px-5
+        .col-lg-11.px-4
           p Es importante saber administrar estos procesos, porque son una herramienta de trabajo indispensable dentro de las instituciones, para la planeación y ejecución de las actividades, generando resultados beneficiosos en los procesos productivos, de acuerdo con el sector donde la empresa desarrolle su actividad.
 
       p.mt-5  Al momento de estructurar los procedimientos de una empresa, siempre se tienen en cuenta ocho aspectos básicos que permiten abordar las distintas áreas de organización de una compañía y establecer planes de acción para las mismas. Estos aspectos son:
@@ -142,7 +145,7 @@
             p.text-center.mt-4 Gestión de la tecnología. 
 
 
-    .row.mt-5
+    .row.mt-2
       .col-lg-8
         p Por otra parte, dentro de la estructura organizacional de las empresas, se encuentran las determinadas áreas y/o departamentos, a los cuales les corresponden los cargos o puestos de trabajo, esenciales para conocer las tareas y funciones de cada parte de la organización. 
         .row.mt-4
@@ -244,10 +247,10 @@
 
 
     .row.mt-5
-      .col-lg-5
+      .col-lg-4
         img(src='@/assets/curso/temas/Tema3/img12.png' alt='AvatarTop')
 
-      .col-lg-7
+      .col-lg-8
         p Las ventajas de la implementación de un sistema de gestión, son las siguientes:
 
         ul.mt-2.lista-ul--
@@ -279,7 +282,7 @@
 
 
     .row.mt-2.justify-content-center.mt-5
-      .col-lg-10
+      .col-lg-11
         .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.carimg(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/img13.png')})`}"

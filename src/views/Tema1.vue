@@ -10,12 +10,12 @@
     .row.mt-4 
         .col-lg-4
            figure
-             img(src='@/assets/curso/temas/Tema1/img1.png', alt='Texto que describa la imagen').imagen-deco
+             img(src='@/assets/curso/temas/Tema1/img1.png', alt='Texto que describa la imagen')
               
         
         .col-lg-7.px-1.col-xs-12
           .cajon.color-primario.p-4            
-            p Para empezar, es importante conocer que el manual de funciones de una organización es una herramienta de apoyo para acceder y contribuir al logro y cumplimiento de los procesos y procedimientos de la empresa; en el manual se describen las actividades, funciones y tareas del personal, además de los objetivos, características, requisitos y responsabilidades que componen cada cargo y perfil, que se tiene dentro de las empresas
+            p Para empezar, es importante conocer que el manual de funciones de una organización es una herramienta de apoyo para acceder y contribuir al logro y cumplimiento de los procesos y procedimientos de la empresa; en el manual se describen las actividades, funciones y tareas del personal, además de los objetivos, características, requisitos y responsabilidades que componen cada cargo y perfil, que se tiene dentro de las empresas. 
 
           .col-lg-12.mt-4
             p El Manual Específico de Funciones y de Competencias Laborales, es una herramienta de gestión del talento humano, que permite establecer las funciones y competencias laborales de los empleados que conforman la planta de personal de las instituciones públicas, así como también los requerimientos de conocimiento, experiencia y demás competencias exigidas para el desempeño de estos. Es, igualmente, insumo importante para la ejecución de los procesos de planeación, ingreso, permanencia y desarrollo del talento humano, al servicio de las organizaciones públicas. (Función Pública, s.f.)
@@ -37,11 +37,12 @@
               
                 .col.mb-5.mb-sm-0
                   h3.mb-1 Resolución Número 0362 de 2022
-                  p.mt-4 Para ampliar la información, lo invitamos a leer la Resolución Número 0362 de 2022.
+                  p.mt-4 Para ampliar la información, lo invitamos a leer la 
+                    b Resolución Número 0362 de 2022.
               
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo 1 - Ejemplo de ficha técnica.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(href="https://www.serviciodeempleo.gov.co/spe/media/documents/17-ANEXO-RESOLUCION-No-0362-28-JULIO-2022-modificacion-Manual-de-Funciones.pdf" target="_blank")
                     span Ver video
                     i.fas.fa-play    
       p.mt-5 El manual debe contener las siguientes características:
@@ -78,7 +79,7 @@
             p.text-center.mt-3.text-small Lograr su seguimiento y evaluación.
 
 
-      .row.mt-5.justify-content-center
+      .row.mt-3.justify-content-center
         .col-10
           .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img.carimg2(
@@ -87,15 +88,16 @@
             .bloque-texto-g__texto4.p-4
               .col-10.col-lg-12
                 ul.mt-4.lista-ul--
+                  
                   li 
                     i.fas.fa-angle-right.color
-                    |   Suministrar información a los colaboradores sobre las actividades específicas y el área, para el cumplimiento de sus funciones.
+                    | Suministrar información a los colaboradores sobre las actividades específicas y el área, para el cumplimiento de sus funciones.
                   li.mt-3 
                     i.fas.fa-angle-right.color
-                    |   Permitir que los procesos de inducción de los empleados sean claros y acordes con las responsabilidades de cada puesto de trabajo.
+                    | Permitir que los procesos de inducción de los empleados sean claros y acordes con las responsabilidades de cada puesto de trabajo.
                   li.mt-3 
                     i.fas.fa-angle-right.color
-                    |   Especificar las tareas, responsabilidades y dependencia de los cargos, dentro de la estructura organizacional de cada área o departamento de la empresa.
+                    | Especificar las tareas, responsabilidades y dependencia de los cargos, dentro de la estructura organizacional de cada área o departamento de la empresa.
                
       .row.mt-5 
         p Para realizar la elaboración del manual de funciones, se debe definir su estructura, la cual debe contener los siguientes ítems: 
@@ -128,7 +130,7 @@
                 p Identificar las competencias de orden comportamental que debe tener el ocupante en el puesto de trabajo, para lo cual se cuenta con una descripción de estas en el Título 4 del Decreto 1083 de 2015, tanto comunes como de nivel jerárquico.
                 .row.justify-content-center
                   .col-lg-9 
-                    a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank").mt-2
+                    a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=62866" target="_blank").mt-2
                       .anexo__icono
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
@@ -139,7 +141,7 @@
                 p En el desarrollo de este ítem, es fundamental tener en cuenta, para los empleos públicos de los organismos y entidades del orden nacional, el Decreto Ley 770 de 2005 y el Título 2 del Decreto 1083 de 2015, que establecen las funciones y requisitos generales. Para el caso de una institución de orden territorial, se debe tener en cuenta el Decreto Ley 785 de 2005.
                 .row.justify-content-center
                   .col-lg-9 
-                    a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank").mt-2
+                    a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16126#:~:Por%20el%20cual%20se%20establece,la%20Ley%20909%20de%202004."       target="_blank").mt-2
                       .anexo__icono
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
