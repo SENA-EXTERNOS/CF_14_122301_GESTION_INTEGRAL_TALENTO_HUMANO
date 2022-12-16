@@ -190,11 +190,9 @@
               p.mt-2.text-aling El proceso de distribución es el de entregar a cada cargo, las funciones y tareas que se deben realizar.
             .col-auto
                 img(src='@/assets/curso/temas/Tema1/paso4.png', alt='')
-      .row.mt-4
-        p Cuando se va a realizar un manual de funciones, se deben tener presentes varios pasos que se recomienda seguir. A continuación, se dan a conocer cada uno de ellos: 
-
-        p Aquí se analizan cada uno de ellos: 
-
+      .row.mt-2
+        p Retomando el paso de elaboración, se encuentran cuatro puntos importantes a tener en cuenta. 
+        p.mt-2 Aquí se analizan cada uno de ellos: 
       .row.justify-content-center.mb-5.mt-3
         .col-lg-11.order-2.order-lg-1
           TabsA.color-acento-contenido      
@@ -203,7 +201,7 @@
                 .col-lg-2
                   img(src='@/assets/curso/temas/Tema1/acor1.png', alt='')
                 .col-lg-6
-                  h4 Organización y planeación
+                 
                   p Se debe:
                   ul.lista-ul.mb-4
                     li 

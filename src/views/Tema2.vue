@@ -20,8 +20,7 @@
     TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="Comunicación formal")
         .row.mt-5
-          .col-md-6.mb-4.mb-md-0
-            h4 Comunicación formal
+          .col-md-6.mb-4.mb-md-0            
             p.mt-5 La propia empresa establece, genera, o manipula esta información. Se estructura bajo las políticas y metas de la empresa, debe ser controlada y estar sujeta a normas o reglas. Se refiere a la comunicación que se realiza a través de los conductos oficiales en la empresa. Se lleva a cabo entre directivos o empleados del mismo nivel o entre superiores y subordinados, y viceversa. Puede ser oral o escrita, pero toda la relación de esa comunicación se conserva dentro de la institución.
           .col-md-5
             figure
@@ -32,7 +31,7 @@
         .row.mt-5
           
           .col-md-6
-            h4 Comunicación formal
+            
             p.mt-5 Se utiliza a nivel personal, aunque también se da en el ámbito laboral y dentro del lugar de trabajo; se basa en la naturalidad, más no en la jerarquía, nace de la interacción social entre los miembros y del resultado de los vínculos que se crean dentro de la organización. No maneja reconocimiento oficial y no se respalda con ningún principio de comunicación específico y hace que se disfrute el tiempo que se pasa en la empresa.
           .col-md-5.mb-4.mb-md-0
             figure
@@ -81,31 +80,56 @@
                       |   Promover la buena comunicación entre todos los participantes y niveles de la empresa.
                 
 
-    .row.mt-4
-      .col-lg-12
+    
         p La comunicación externa se conoce con el nombre de “comunicación comercial” y hace referencia a todo el intercambio o flujo de información que manipula la organización; está destinada para los públicos externos, sea de manera directa o a través de intermediarios, con el objetivo de mantener o mejorar sus relaciones corporativas, proyectar una imagen corporativa favorable y promover los productos o servicios; se refiere a los movimientos que la organización dirige hacia los agentes externos, consumidores y proveedores, inversores o sociedad, con el objetivo de generar, o reforzar las relaciones entre la compañía y los diferentes públicos.
         p.mt-2 Es así como la importancia de la comunicación organizacional radica en las siguientes funciones:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema2/slider1.svg' alt='AvatarTop')
-            p.text-center.mt-3 Resolver cambios con creatividad.
+    
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider1.svg' alt='AvatarTop')
+              p.text-center.mt-3 Resolver cambios con creatividad.
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema2/slider2.svg' alt='AvatarTop')
-            p.text-center.mt-4 Realizar directrices para desarrollar actividades diarias.
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider2.svg' alt='AvatarTop')
+              p.text-center.mt-4 Realizar directrices para desarrollar actividades diarias.
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema2/slider3.svg' alt='AvatarTop')
-            p.text-center.mt-4 Mejorar las relaciones interpersonales en la empresa.
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider3.svg' alt='AvatarTop')
+              p.text-center.mt-4 Mejorar las relaciones interpersonales en la empresa.
 
-    p.mt-4 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider4.svg' alt='AvatarTop')
+              p.text-center.mt-1 Coordinar las actividades logrando los objetivos esperados de la organización.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider5.svg' alt='AvatarTop')
+              p.text-center.mt-5 Contribuir con un adecuado clima laboral.
+
+          .tarjeta.color-acento-contenido.p-4
+            .row.justify-content-center.mb-3
+              .col-4
+                img(src='@/assets/curso/temas/Tema2/slider6.svg' alt='AvatarTop')
+              p.text-center.mt-5 Motivar al personal para mejorar la productividad.
+
+
+
+
+
+
+
+
+    p.mt-2 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
     p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos.
 
     .row.justify-content-center.mt-2
@@ -115,23 +139,23 @@
             figure
               img(src='@/assets/curso/temas/Tema2/img3.svg', alt='Texto que describa la imagen')
               
-          .tarjeta.color-acento-botone.p-3(x="35%" y="22%" numero="+")
+          .tarjeta.color-acento-botone.p-3(x="35%" y="25%" numero="+")
             .h5.mb-2 Código
             p Es el lenguaje o conjunto de reglas que se usan para transmitir el mensaje, y el cual debe ser común entre el emisor y el receptor, para que la información pueda ser entendida apropiadamente. Como ejemplos de códigos de comunicación se pueden citar: la gramática de un lenguaje o los algoritmos de un sistema informático.
           
-          .tarjeta.color-acento-botone.p-3(x="58%" y="10%" numero="+")
+          .tarjeta.color-acento-botone.p-3(x="60%" y="11%" numero="+")
             .h5.mb-2 Mensaje
             p Es el contenido de la información que envía el emisor al destinatario.
 
-          .tarjeta.color-acento-botone.p-3(x="49%" y="48%" numero="+")
+          .tarjeta.color-acento-botone.p-3(x="50%" y="54%" numero="+")
             .h5.mb-2 Canal
             p Es el medio o vía que usa el emisor para enviarle el mensaje al destinatario. Por ejemplo: correo electrónico, teléfono, etc.
 
-          .tarjeta.color-acento-botone.p-3(x="90%" y="45%" numero="+")
+          .tarjeta.color-acento-botone.p-3(x="92%" y="48%" numero="+")
             .h5.mb-2 Receptor
             p Es quien recibe el mensaje, es decir, el destinatario.
 
-          .tarjeta.color-acento-botone.p-3(x="8%" y="49%" numero="+")
+          .tarjeta.color-acento-botone.p-3(x="8%" y="50%" numero="+")
             .h5.mb-2 Emisor
             p Es quien envía el mensaje, es decir, el origen de la comunicación.
 
@@ -139,7 +163,8 @@
     .row.justify-content-start.align-items-center.mb-2.mt-5       
       .col-lg-5
         .bgp.p-1
-          h3.mb-0 Comunicación interna y externa
+          h3.mb-0 Tipos de comunicación organizacional
+
 
     p.mt-4 Los tipos de comunicación son las diferentes formas que tenemos los seres humanos de transmitir un mensaje, tienen que ver con los diferentes ámbitos o situaciones que se presentan y con el modo de comunicarnos, entre otros.
     p.mt-3 A continuación, se presentan cada uno de ellos:
@@ -318,22 +343,22 @@
               figure
                 img(src='@/assets/curso/temas/Tema2/puntocaliente2.png', alt='Texto que describa la imagen')
                 
-            .tarjeta.color-acento-botone.p-3(x="-1%" y="2%" numero="+")
-              .h5.mb-2 Orientada al poder
+            .tarjeta.color-acento-botone.p-3(x="4.5%" y="5%" numero="+")
+              
               p En este tipo de comunicación, cada trabajador se visualiza prestando un servicio y nada más, debido a que el objetivo primordial de la organización es la competitividad en el mercado.
 
-            .tarjeta.color-acento-botone.p-3(x="99%" y="2%" numero="+")
-              .h5.mb-2 Orientada a las normas
+            .tarjeta.color-acento-botone.p-3(x="96%" y="5%" numero="+")
+              
               p Su objetivo primordial es el cumplimiento riguroso del reglamento interno y las normas establecidas por la empresa; allí se establecen las tareas y responsabilidades que se deben efectuar.
 
-            .tarjeta.color-acento-botone.p-3(x="-1%" y="74%" numero="+")
-              .h5.mb-2 Orientada a las personas
+            .tarjeta.color-acento-botone.p-3(x="4.5%" y="74%" numero="+")
+              
               p El objetivo de este tipo de cultura organizacional, es el desarrollo tanto personal como profesional de los empleados, generando motivación en ellos, porque sus empleados representan a la empresa y, por lo tanto, son la clave para lograr las metas establecidas.
               p.mt-3 Es importante, en este caso, la satisfacción no solo de los clientes externos, sino también de los internos. 
 
-            .tarjeta.color-acento-botone.p-3(x="99%" y="74%" numero="+")
-              .h5.mb-2 Orientada a los resultados
-              p Es quien recibe el mensaje, es decir, el destinatario.
+            .tarjeta.color-acento-botone.p-3(x="96%" y="74%" numero="+")
+              
+              p Su finalidad es cumplir con las metas propuestas, inmediatas o a corto plazo, ahorrando recursos.
 
 
 

@@ -29,8 +29,9 @@
         .row.mt-5
           .col-md-6.mb-4.mb-md-0
             h4 Proceso
-            p.mt-5 Son los pasos, etapas o actividades que generan, como resultado, un objetivo específico. Su finalidad es la de ser dinámicos y que se contribuya con una gestión, para cumplir con unos objetivos esperados. Pueden ser administrados por varias personas con diferentes objetivos. Algunos de los procesos requieren un procedimiento con etapas específicas, para dar unos óptimos resultados. 
-            
+            p.mt-3 Son los pasos, etapas o actividades que generan, como resultado, un objetivo específico. Su finalidad es la de ser dinámicos y que se contribuya con una gestión, para cumplir con unos objetivos esperados. Pueden ser administrados por varias personas con diferentes objetivos. Algunos de los procesos requieren un procedimiento con etapas específicas, para dar unos óptimos resultados. 
+            p.mt-2 Entre los objetivos de los procesos administrativos se encuentran: promover la coherencia y mejorar el flujo de trabajo, ayudar a cumplir la visión de la empresa, aumentar la eficiencia con el seguimiento y el análisis.
+
           .col-md-5.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/Tema3/img2.png', alt='Texto que describa la imagen')
@@ -41,13 +42,13 @@
           
           .col-md-6
             h4 Procedimiento
-            p.mt-5 Es una herramienta que sigue unos métodos para implementar y lograr obtener unos resultados, no cambia con el tiempo, por lo tanto, siempre se debe realizar de la misma forma. Por ejemplo, para elaborar una receta se debe seguir una secuencia de pasos.
+            p.mt-3 Es una herramienta que sigue unos métodos para implementar y lograr obtener unos resultados, no cambia con el tiempo, por lo tanto, siempre se debe realizar de la misma forma. Por ejemplo, para elaborar una receta se debe seguir una secuencia de pasos.
             p.mt-2 Entre los objetivos de los procedimientos administrativos se encuentran: establecer el orden lógico que deben seguir las actividades, promover la eficiencia y la optimización, fijar la manera como deben ejecutarse las actividades, quién debe ejecutarlas y cuándo.
 
 
           .col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/Tema2/pestania2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/Tema3/pestania3.png', alt='Texto que describa la imagen')
              
     .bg5  
       .row.justify-content-center.mb-4.mt-4       
@@ -58,31 +59,29 @@
 
       p.mt-4 Los procesos dentro de la organización, se enfocan en una secuencia estructurada de actividades que, al final, producen un producto o servicio específico de valor para el usuario. Entre los procesos que se pueden destacar se encuentran los siguientes:
 
-    .row.mt-4
-      .col-lg-3
-        figure
-              img(src='@/assets/curso/temas/Tema3/img4.png', alt='Texto que describa la imagen')
+      .row.mt-4
+        .col-lg-3
+          figure
+                img(src='@/assets/curso/temas/Tema3/img4.png', alt='Texto que describa la imagen')
 
-      .col-lg-9
-        .row.justify-content-center.mb-5     
-            TabsA.color-acento-contenido      
-              .tarjeta.clr--yellow.p-4(titulo="Procesos estratégicos")
-                .col-lg-10
-                    h4 Procesos estratégicos
-                    p.mt3 Son aquellos orientados a realizar una estrategia para cumplir con los objetivos de la organización, teniendo en cuenta la misión, visión y políticas de la organización. Está compuesto por los líderes y gerentes de cada área de la empresa.
-              
-              .tarjeta.clr--yellow.p-4(titulo="Procesos operativos")
-                
+        .col-lg-9
+          .row.justify-content-center.mb-5     
+              TabsA.color-acento-contenido      
+                .tarjeta.clr--yellow.p-4(titulo="Procesos estratégicos")
                   .col-lg-10
-                    h4 Procesos operativos
-                    p.mt3 Destinados a generar el producto o servicio. Se trata del grueso de muchos de los procesos de las empresas, puesto que comprenden la producción, el desarrollo del producto, etc., y van directamente relacionados con la satisfacción del cliente, así como de los accionistas si los hubiera. De ahí que, en muchas ocasiones, los procesos operativos de una empresa también reciben el nombre de procesos claves.
+                    
+                      p.mt3 Son aquellos orientados a realizar una estrategia para cumplir con los objetivos de la organización, teniendo en cuenta la misión, visión y políticas de la organización. Está compuesto por los líderes y gerentes de cada área de la empresa.
+                
+                .tarjeta.clr--yellow.p-4(titulo="Procesos operativos")
+                  
+                    .col-lg-10                  
+                      p.mt3 Destinados a generar el producto o servicio. Se trata del grueso de muchos de los procesos de las empresas, puesto que comprenden la producción, el desarrollo del producto, etc., y van directamente relacionados con la satisfacción del cliente, así como de los accionistas si los hubiera. De ahí que, en muchas ocasiones, los procesos operativos de una empresa también reciben el nombre de procesos claves.
 
-              .tarjeta.clr--yellow.p-4(titulo="Procesos de soporte")
-                
-                  .col-lg-10
-                    h4 Procesos de soporte
-                    p.mt3 Se trata de los procesos de apoyo que ayudan directamente a cumplir con los objetivos de la empresa. Hablamos de control de calidad, sistemas de información, etc. Se podría decir que este tipo de procesos cumplen la función de una herramienta clave para la ejecución de los demás procesos de la empresa.
-    
+                .tarjeta.clr--yellow.p-4(titulo="Procesos de soporte")
+                  
+                    .col-lg-10                   
+                      p.mt3 Se trata de los procesos de apoyo que ayudan directamente a cumplir con los objetivos de la empresa. Hablamos de control de calidad, sistemas de información, etc. Se podría decir que este tipo de procesos cumplen la función de una herramienta clave para la ejecución de los demás procesos de la empresa.
+      
       .row.mt-4.px-5
         .col-lg-1.px1
           .bg4.px-1
