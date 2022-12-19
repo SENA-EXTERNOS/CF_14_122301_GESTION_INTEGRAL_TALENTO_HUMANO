@@ -43,7 +43,7 @@
                 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-negro(href="https://www.serviciodeempleo.gov.co/spe/media/documents/17-ANEXO-RESOLUCION-No-0362-28-JULIO-2022-modificacion-Manual-de-Funciones.pdf" target="_blank")
-                    span Ver video
+                    span Ver más
                     i.fas.fa-play    
       p.mt-5 El manual debe contener las siguientes características:
 

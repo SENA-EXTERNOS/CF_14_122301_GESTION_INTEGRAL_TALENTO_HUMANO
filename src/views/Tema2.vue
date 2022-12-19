@@ -27,7 +27,7 @@
               img(src='@/assets/curso/temas/Tema2/pestania1.png', alt='Texto que describa la imagen')
               
 
-      .py-3.py-md-4(titulo="Comunicación formal")
+      .py-3.py-md-4(titulo="Comunicación informal")
         .row.mt-5
           
           .col-md-6
