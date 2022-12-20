@@ -28,7 +28,7 @@
       .py-3.py-md-4(titulo="Proceso")
         .row.mt-5
           .col-md-6.mb-4.mb-md-0
-            h4 Proceso
+            
             p.mt-3 Son los pasos, etapas o actividades que generan, como resultado, un objetivo específico. Su finalidad es la de ser dinámicos y que se contribuya con una gestión, para cumplir con unos objetivos esperados. Pueden ser administrados por varias personas con diferentes objetivos. Algunos de los procesos requieren un procedimiento con etapas específicas, para dar unos óptimos resultados. 
             p.mt-2 Entre los objetivos de los procesos administrativos se encuentran: promover la coherencia y mejorar el flujo de trabajo, ayudar a cumplir la visión de la empresa, aumentar la eficiencia con el seguimiento y el análisis.
 
@@ -41,7 +41,7 @@
         .row.mt-5
           
           .col-md-6
-            h4 Procedimiento
+            
             p.mt-3 Es una herramienta que sigue unos métodos para implementar y lograr obtener unos resultados, no cambia con el tiempo, por lo tanto, siempre se debe realizar de la misma forma. Por ejemplo, para elaborar una receta se debe seguir una secuencia de pasos.
             p.mt-2 Entre los objetivos de los procedimientos administrativos se encuentran: establecer el orden lógico que deben seguir las actividades, promover la eficiencia y la optimización, fijar la manera como deben ejecutarse las actividades, quién debe ejecutarlas y cuándo.
 
@@ -50,98 +50,98 @@
             figure
               img(src='@/assets/curso/temas/Tema3/pestania3.png', alt='Texto que describa la imagen')
              
-    .bg5  
-      .row.justify-content-center.mb-4.mt-4       
-        .col-lg-10.px-1.col-xs-12
-          .cajon.color-acento-contenido.p-4            
-            p Por consiguiente, es posible concluir que la diferencia entre proceso y procedimiento se basa en que un proceso debe cumplir con un objetivo general, mientras que un procedimiento, cumple con un objetivo más específico, como por ejemplo una tarea; en el proceso intervienen varias personas, mientras que el procedimiento lo realiza una persona o una misma área; el proceso tiene etapas, el procedimiento tiene pasos o tareas, en el proceso su ejecución es continua, en el procedimiento su ejecución es discontinua.
-
-
-      p.mt-4 Los procesos dentro de la organización, se enfocan en una secuencia estructurada de actividades que, al final, producen un producto o servicio específico de valor para el usuario. Entre los procesos que se pueden destacar se encuentran los siguientes:
-
-      .row.mt-4
-        .col-lg-3
-          figure
-                img(src='@/assets/curso/temas/Tema3/img4.png', alt='Texto que describa la imagen')
-
-        .col-lg-9
-          .row.justify-content-center.mb-5     
-              TabsA.color-acento-contenido      
-                .tarjeta.clr--yellow.p-4(titulo="Procesos estratégicos")
-                  .col-lg-10
-                    
-                      p.mt3 Son aquellos orientados a realizar una estrategia para cumplir con los objetivos de la organización, teniendo en cuenta la misión, visión y políticas de la organización. Está compuesto por los líderes y gerentes de cada área de la empresa.
-                
-                .tarjeta.clr--yellow.p-4(titulo="Procesos operativos")
-                  
-                    .col-lg-10                  
-                      p.mt3 Destinados a generar el producto o servicio. Se trata del grueso de muchos de los procesos de las empresas, puesto que comprenden la producción, el desarrollo del producto, etc., y van directamente relacionados con la satisfacción del cliente, así como de los accionistas si los hubiera. De ahí que, en muchas ocasiones, los procesos operativos de una empresa también reciben el nombre de procesos claves.
-
-                .tarjeta.clr--yellow.p-4(titulo="Procesos de soporte")
-                  
-                    .col-lg-10                   
-                      p.mt3 Se trata de los procesos de apoyo que ayudan directamente a cumplir con los objetivos de la empresa. Hablamos de control de calidad, sistemas de información, etc. Se podría decir que este tipo de procesos cumplen la función de una herramienta clave para la ejecución de los demás procesos de la empresa.
-      
-      .row.mt-4.px-5
-        .col-lg-1.px1
-          .bg4.px-1
-            figure
-              img(src='@/assets/curso/temas/Tema3/img5.png', alt='Texto que describa la imagen').imagen-decorativa-7
-
-        .col-lg-11.px-4
-          p Es importante saber administrar estos procesos, porque son una herramienta de trabajo indispensable dentro de las instituciones, para la planeación y ejecución de las actividades, generando resultados beneficiosos en los procesos productivos, de acuerdo con el sector donde la empresa desarrolle su actividad.
-
-      p.mt-5  Al momento de estructurar los procedimientos de una empresa, siempre se tienen en cuenta ocho aspectos básicos que permiten abordar las distintas áreas de organización de una compañía y establecer planes de acción para las mismas. Estos aspectos son:
-      
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider1.svg' alt='AvatarTop')
-            p.text-center.mt-3 Servicio de adquisición y transporte de materia prima.
-
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider2.svg' alt='AvatarTop')
-            p.text-center.mt-5 Manejo de maquinaria.
-
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider3.svg' alt='AvatarTop')
-            p.text-center.mt-4 Relación e imagen de productos y servicios.
         
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider4.svg' alt='AvatarTop')
-            p.text-center.mt-5 Atención al cliente.
+    .row.justify-content-center.mb-4.mt-4       
+      .col-lg-10.px-1.col-xs-12
+        .cajon.color-acento-contenido.p-4            
+          p Por consiguiente, es posible concluir que la diferencia entre proceso y procedimiento se basa en que un proceso debe cumplir con un objetivo general, mientras que un procedimiento, cumple con un objetivo más específico, como por ejemplo una tarea; en el proceso intervienen varias personas, mientras que el procedimiento lo realiza una persona o una misma área; el proceso tiene etapas, el procedimiento tiene pasos o tareas, en el proceso su ejecución es continua, en el procedimiento su ejecución es discontinua.
 
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider5.svg' alt='AvatarTop')
-            p.text-center.mt-4 Desarrollo y actitudes de talento humano.
+    p.mt-4 Los procesos dentro de la organización, se enfocan en una secuencia estructurada de actividades que, al final, producen un producto o servicio específico de valor para el usuario. Entre los procesos que se pueden destacar se encuentran los siguientes:
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider6.svg' alt='AvatarTop')
-            p.text-center.mt-4 Desarrollo e innovación de productos.
+    .row.mt-4
+      .col-lg-3
+        figure
+              img(src='@/assets/curso/temas/Tema3/img4.png', alt='Texto que describa la imagen')
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider7.svg' alt='AvatarTop')
-            p.text-center.mt-4 Análisis financieros.
+      .col-lg-9
+        .row.justify-content-center.mb-5     
+            TabsA.color-acento-contenido      
+              .tarjeta.clr--yellow.p-4(titulo="Procesos estratégicos")
+                .col-lg-10
+                  
+                    p.mt3 Son aquellos orientados a realizar una estrategia para cumplir con los objetivos de la organización, teniendo en cuenta la misión, visión y políticas de la organización. Está compuesto por los líderes y gerentes de cada área de la empresa.
+              
+              .tarjeta.clr--yellow.p-4(titulo="Procesos operativos")
+                
+                  .col-lg-10                  
+                    p.mt3 Destinados a generar el producto o servicio. Se trata del grueso de muchos de los procesos de las empresas, puesto que comprenden la producción, el desarrollo del producto, etc., y van directamente relacionados con la satisfacción del cliente, así como de los accionistas si los hubiera. De ahí que, en muchas ocasiones, los procesos operativos de una empresa también reciben el nombre de procesos claves.
 
-        .tarjeta.color-acento-contenido.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/Tema3/slider8.svg' alt='AvatarTop')
-            p.text-center.mt-4 Gestión de la tecnología. 
+              .tarjeta.clr--yellow.p-4(titulo="Procesos de soporte")
+                
+                  .col-lg-10                   
+                    p.mt3 Se trata de los procesos de apoyo que ayudan directamente a cumplir con los objetivos de la empresa. Hablamos de control de calidad, sistemas de información, etc. Se podría decir que este tipo de procesos cumplen la función de una herramienta clave para la ejecución de los demás procesos de la empresa.
+    
+    .row.mt-4.px-5
+      .col-lg-1.px1
+        .bg4.px-1
+          figure
+            img(src='@/assets/curso/temas/Tema3/img5.png', alt='Texto que describa la imagen').imagen-decorativa-7
+
+      .col-lg-11.px-4
+        p Es importante saber administrar estos procesos, porque son una herramienta de trabajo indispensable dentro de las instituciones, para la planeación y ejecución de las actividades, generando resultados beneficiosos en los procesos productivos, de acuerdo con el sector donde la empresa desarrolle su actividad.
+
+    p.mt-5  Al momento de estructurar los procedimientos de una empresa, siempre se tienen en cuenta ocho aspectos básicos que permiten abordar las distintas áreas de organización de una compañía y establecer planes de acción para las mismas. Estos aspectos son:
+    
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider1.svg' alt='AvatarTop')
+          p.text-center.mt-3 Servicio de adquisición y transporte de materia prima.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider2.svg' alt='AvatarTop')
+          p.text-center.mt-5 Manejo de maquinaria.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider3.svg' alt='AvatarTop')
+          p.text-center.mt-4 Relación e imagen de productos y servicios.
+      
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider4.svg' alt='AvatarTop')
+          p.text-center.mt-5 Atención al cliente.
+
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider5.svg' alt='AvatarTop')
+          p.text-center.mt-4 Desarrollo y actitudes de talento humano.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider6.svg' alt='AvatarTop')
+          p.text-center.mt-4 Desarrollo e innovación de productos.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider7.svg' alt='AvatarTop')
+          p.text-center.mt-4 Análisis financieros.
+
+      .tarjeta.color-acento-contenido.p-4
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/Tema3/slider8.svg' alt='AvatarTop')
+          p.text-center.mt-4 Gestión de la tecnología. 
 
 
     .row.mt-2

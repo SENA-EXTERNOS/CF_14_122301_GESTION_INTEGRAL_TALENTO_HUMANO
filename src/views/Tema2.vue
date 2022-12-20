@@ -129,8 +129,8 @@
 
 
 
-    p.mt-2 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
-    p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos.
+      p.mt-2 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
+      p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos.
 
     .row.justify-content-center.mt-2
       .col-lg-9
@@ -140,23 +140,23 @@
               img(src='@/assets/curso/temas/Tema2/img3.svg', alt='Texto que describa la imagen')
               
           .tarjeta.color-acento-botone.p-3(x="35%" y="25%" numero="+")
-            .h5.mb-2 Código
+            
             p Es el lenguaje o conjunto de reglas que se usan para transmitir el mensaje, y el cual debe ser común entre el emisor y el receptor, para que la información pueda ser entendida apropiadamente. Como ejemplos de códigos de comunicación se pueden citar: la gramática de un lenguaje o los algoritmos de un sistema informático.
           
           .tarjeta.color-acento-botone.p-3(x="60%" y="11%" numero="+")
-            .h5.mb-2 Mensaje
+            
             p Es el contenido de la información que envía el emisor al destinatario.
 
           .tarjeta.color-acento-botone.p-3(x="50%" y="54%" numero="+")
-            .h5.mb-2 Canal
+            
             p Es el medio o vía que usa el emisor para enviarle el mensaje al destinatario. Por ejemplo: correo electrónico, teléfono, etc.
 
           .tarjeta.color-acento-botone.p-3(x="92%" y="48%" numero="+")
-            .h5.mb-2 Receptor
+            
             p Es quien recibe el mensaje, es decir, el destinatario.
 
           .tarjeta.color-acento-botone.p-3(x="8%" y="50%" numero="+")
-            .h5.mb-2 Emisor
+            
             p Es quien envía el mensaje, es decir, el origen de la comunicación.
 
 

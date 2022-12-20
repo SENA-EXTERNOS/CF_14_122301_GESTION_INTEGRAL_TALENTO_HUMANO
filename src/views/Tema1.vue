@@ -194,7 +194,7 @@
         p Retomando el paso de elaboración, se encuentran cuatro puntos importantes a tener en cuenta. 
         p.mt-2 Aquí se analizan cada uno de ellos: 
       .row.justify-content-center.mb-5.mt-3
-        .col-lg-11.order-2.order-lg-1
+        .col-lg-12.order-2.order-lg-1
           TabsA.color-acento-contenido      
             .tarjeta.clr--yellow.p-4(titulo="Organización y planeación")
               .row
