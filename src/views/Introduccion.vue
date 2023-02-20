@@ -18,7 +18,7 @@
       .col-lg-11.px-4
         p  Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán los conceptos básicos sobre la función y el desempeño que se llevan a cabo en los cargos de la empresa, con el objetivo de implementar y acondicionar el manual de funciones para cada puesto de trabajo. 
       
-      p.mt-4.px-1  En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+      p.mt-4.px-1 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
     .row.mt-4
       .col-lg-6

@@ -21,31 +21,26 @@
             p El Manual Específico de Funciones y de Competencias Laborales, es una herramienta de gestión del talento humano, que permite establecer las funciones y competencias laborales de los empleados que conforman la planta de personal de las instituciones públicas, así como también los requerimientos de conocimiento, experiencia y demás competencias exigidas para el desempeño de estos. Es, igualmente, insumo importante para la ejecución de los procesos de planeación, ingreso, permanencia y desarrollo del talento humano, al servicio de las organizaciones públicas. (Función Pública, s.f.)
     .row.mt-4
       .col-lg-12
-        p El Decreto 1083 de 2015, introduce el Núcleo Básico de Conocimiento – NBC como un elemento nuevo para los requisitos de estudio del manual de funciones y competencias laborales. El Núcleo Básico de Conocimiento – NBC es la agrupación de disciplinas académicas o profesiones, según la clasificación establecida en el Sistema Nacional de Información de la Educación Superior (SNIES), a cargo del Ministerio de Educación Nacional. Los diferentes NBC se encuentran descritos en el artículo 2.2.2.4.9 del Decreto 1083 de 2015 y establecen que cada entidad puede definir en el manual de funciones, los Núcleos Básicos de Conocimiento - NBC que considere necesarios para el ejercicio de un determinado empleo, inclusive si pertenecen a áreas de conocimiento diferentes, siempre y cuando ellos se encuentren relacionados con la naturaleza de las funciones del empleo. Es decir, el registro de varios núcleos de conocimiento para una determinada ficha de empleo, es perfectamente válido.
+        p.mb-5 El Decreto 1083 de 2015, introduce el Núcleo Básico de Conocimiento – NBC como un elemento nuevo para los requisitos de estudio del manual de funciones y competencias laborales. El Núcleo Básico de Conocimiento – NBC es la agrupación de disciplinas académicas o profesiones, según la clasificación establecida en el Sistema Nacional de Información de la Educación Superior (SNIES), a cargo del Ministerio de Educación Nacional. Los diferentes NBC se encuentran descritos en el artículo 2.2.2.4.9 del Decreto 1083 de 2015 y establecen que cada entidad puede definir en el manual de funciones, los Núcleos Básicos de Conocimiento - NBC que considere necesarios para el ejercicio de un determinado empleo, inclusive si pertenecen a áreas de conocimiento diferentes, siempre y cuando ellos se encuentren relacionados con la naturaleza de las funciones del empleo. Es decir, el registro de varios núcleos de conocimiento para una determinada ficha de empleo, es perfectamente válido.
 
-    .row.justify-content-around.align-items-centerrd.mt-5
-      .col-11
-        .tarjeta.color-secundario.p-3.mt-4
-          .row.justify-content-around.align-items-center
-            
-            .col-10
-              .row  
-                .col-lg-1
-                  figure
-                    img(src="@/assets/curso/temas/Tema1/img2.png")
 
-              
-                .col.mb-5.mb-sm-0
-                  h3.mb-1 Resolución Número 0362 de 2022
-                  p.mt-4 Para ampliar la información, lo invitamos a leer la 
-                    b Resolución Número 0362 de 2022.
-              
-                
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(href="https://www.serviciodeempleo.gov.co/spe/media/documents/17-ANEXO-RESOLUCION-No-0362-28-JULIO-2022-modificacion-Manual-de-Funciones.pdf" target="_blank")
-                    span Ver más
-                    i.fas.fa-play    
-      p.mt-5 El manual debe contener las siguientes características:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-11
+          .tarjeta.color-secundario.p-3
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-1
+                img(src="@/assets/curso/temas/Tema1/img2.png")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h3.mb-1 Resolución Número 0362 de 2022
+                    p Para ampliar la información, lo invitamos a leer la <b> Resolución Número 0362 de 2022.</b>
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="https://www.serviciodeempleo.gov.co/spe/media/documents/17-ANEXO-RESOLUCION-No-0362-28-JULIO-2022-modificacion-Manual-de-Funciones.pdf" target="_blank")
+                      span Descargar
+                      i.fas.fa-play
+
+      p El manual debe contener las siguientes características:
 
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-acento-contenido.p-4
@@ -200,7 +195,7 @@
               .row
                 .col-lg-2
                   img(src='@/assets/curso/temas/Tema1/acor1.png', alt='')
-                .col-lg-6
+                .col-lg-10
                  
                   p Se debe:
                   ul.lista-ul.mb-4
@@ -219,21 +214,21 @@
               .row
                 .col-lg-2
                   img(src='@/assets/curso/temas/Tema1/acor2.png')
-                .col-lg-8
+                .col-lg-10
                   p Se deben reconocer las unidades responsables de los procesos, definir cómo se recolectará la información, identificar las normas, funciones, actividades básicas, aplicación del material de apoyo como la encuesta, la entrevista, los cuestionarios y las fichas de información. 
 
             .tarjeta.clr--yellow.p-4(titulo="Recolección de la información")
               .row
                 .col-lg-2
                   img(src='@/assets/curso/temas/Tema1/acor3.png')
-                .col-lg-8
+                .col-lg-10
                   p La información se debe extraer de los archivos, aplicando la observación directa de los procesos; dicha información se debe organizar, analizar y sistematizar para conocer los procesos que operan en ese periodo de tiempo.
 
             .tarjeta.clr--yellow.p-4(titulo="Procesamiento e integración")
               .row
                 .col-lg-2
                   img(src='@/assets/curso/temas/Tema1/acor3.png')
-                .col-lg-8
+                .col-lg-10
                   p Organización de la información obtenida para facilitar el análisis. 
       
       .row.justify-content-start.align-items-center.mb-2        
@@ -242,7 +237,7 @@
             h3.mb-0 Competencias
       
       p.mt-4 Para elegir los cargos y perfiles, como se mencionó anteriormente, es fundamental identificar las competencias. Estas son todas las habilidades, aptitudes y destrezas que adquiere la persona a través de su formación, tanto personal como profesional. 
-      p.m-t-4 Para conocer qué son las competencias, su objetivo e importancia, lo invitamos a ver el siguiente video.
+      p.m-t-4 Para conocer qué son las competencias, su objetivo e importancia, lo invitamos a ver el siguiente video:
 
       .row.mt-4
         .col-lg-6
@@ -251,7 +246,7 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption   VIDEO
       
-      p.mt-4 Teniendo claros los conceptos presentados en el video, se analizan algunas clasificaciones que se pueden encontrar en las competencias. 
+      p.mt-4 Teniendo claros los conceptos presentados en el video, se analizan algunas clasificaciones que se pueden encontrar en las competencias:
 
       .row.justify-content-center.mb-4
         .col-lg-4

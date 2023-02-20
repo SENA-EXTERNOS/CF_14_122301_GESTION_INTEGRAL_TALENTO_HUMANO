@@ -130,7 +130,7 @@
 
 
       p.mt-2 Igualmente, es importante conocer cuáles son los elementos que intervienen en el proceso de comunicación. 
-      p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos.
+      p.mt-4 Analice con cuidado la siguiente imagen y conozca cada uno de esos elementos:
 
     .row.justify-content-center.mt-2
       .col-lg-9
@@ -287,7 +287,7 @@
                     |      este tipo de información se genera de arriba hacia abajo en la estructura organizacional, es decir, desde las coordinaciones hacia los empleados, o desde la gerencia hacia los trabajadores. 
 
 
-      p.mt-4 Es importante saber que esa comunicación organizacional no está exenta de obstáculos. Algunos de estos son:
+      p.mt-4 Es importante saber que esa comunicación organizacional no está exenta de obstáculos. Algunos de estos obstáculos son:
     .row.mb-5
       .col-lg-8
         LineaTiempoD.color-secundario
@@ -333,7 +333,7 @@
           .cajon.color-acento-contenido.p-4            
             p Para finalizar el tema, se aborda la cultura organizacional, que es la personalidad de la empresa u organización; son todas esas características que le dan una identidad y, a la vez, la diferencian de otras organizaciones, teniendo presente que esas mismas características comprenden las fortalezas y debilidades de la empresa.
 
-      p.mt-5 Existen diferentes clases de cultura organizacional; a continuación, se mencionan algunas de ellas. 
+      p.mt-5 Existen diferentes clases de cultura organizacional; a continuación, se mencionan algunas de ellas:
 
       .row.justify-content-center.mb-4.mt-4   
         .col-lg-8
