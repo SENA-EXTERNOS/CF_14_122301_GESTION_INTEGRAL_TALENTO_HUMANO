@@ -76,24 +76,24 @@
 
       .row.mt-3.justify-content-center
         .col-10
-          .bloque-texto-g.color-primario.tarjetaimgcar.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__img.carimg2(
-              :style="{'background-image': `url(${require('@/assets/curso/temas/Tema1/IMG3.svg')})`}"
-            )
-            .bloque-texto-g__texto4.p-4
-              .col-10.col-lg-12
-                ul.mt-4.lista-ul--
-                  
-                  li 
-                    i.fas.fa-angle-right.color
-                    | Suministrar información a los colaboradores sobre las actividades específicas y el área, para el cumplimiento de sus funciones.
-                  li.mt-3 
-                    i.fas.fa-angle-right.color
-                    | Permitir que los procesos de inducción de los empleados sean claros y acordes con las responsabilidades de cada puesto de trabajo.
-                  li.mt-3 
-                    i.fas.fa-angle-right.color
-                    | Especificar las tareas, responsabilidades y dependencia de los cargos, dentro de la estructura organizacional de cada área o departamento de la empresa.
                
+          .bloque-texto-a.color-primario.fnd-1.p-4.p-md-5.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-3.mb-4.mb-lg-0
+                h3.mb-0 A su vez, la importancia que tienen la implementación del manual de funciones dentro de la organización es la de:
+              .col-lg-9
+                .bloque-texto-a__texto.p-4
+                  ul.mt-4.lista-ul
+                    li 
+                      i.fas.fa-angle-right.color
+                      | Suministrar información a los colaboradores sobre las actividades específicas y el área, para el cumplimiento de sus funciones.
+                    li.mt-3 
+                      i.fas.fa-angle-right.color
+                      | Permitir que los procesos de inducción de los empleados sean claros y acordes con las responsabilidades de cada puesto de trabajo.
+                    li.mt-3 
+                      i.fas.fa-angle-right.color
+                      | Especificar las tareas, responsabilidades y dependencia de los cargos, dentro de la estructura organizacional de cada área o departamento de la empresa.
+
       .row.mt-5 
         p Para realizar la elaboración del manual de funciones, se debe definir su estructura, la cual debe contener los siguientes ítems: 
  

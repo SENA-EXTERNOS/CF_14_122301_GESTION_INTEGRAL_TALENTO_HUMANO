@@ -10,26 +10,12 @@ export default {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/1.png'),
       },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/2.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/3.png'),
-      },
+
       {
         clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/portada/4.png'),
       },
-      {
-        clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/5.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-6'],
-        imagen: require('@/assets/curso/portada/6.png'),
-      },
+
       {
         clases: ['banner-principal-decorativo-7'],
         imagen: require('@/assets/curso/portada/7.svg'),

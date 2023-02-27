@@ -58,7 +58,7 @@
             .col-lg-10.px-1.col-xs-12
               .cajon.color-acento-contenido.p-4            
                 p Las principales funciones de la comunicación interna son:
-                ul.mt-2.lista-ul--
+                ul.mt-2.lista-ul
                     li 
                       i.fas.fa-angle-right.color
                       |   Instaurar, perfeccionar o consolidar la imagen corporativa de la organización.
