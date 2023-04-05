@@ -243,7 +243,7 @@
         .col-lg-6
         figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/sTFOAudj5D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption   VIDEO
       
       p.mt-4 Teniendo claros los conceptos presentados en el video, se analizan algunas clasificaciones que se pueden encontrar en las competencias:
