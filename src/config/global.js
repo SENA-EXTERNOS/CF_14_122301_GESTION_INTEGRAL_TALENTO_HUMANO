@@ -137,8 +137,7 @@ export default {
       referencia:
         'Bonilla P. (2022). <em>7 tipos de cultura organizacional más comunes.<em>',
       tipo: 'Artículo',
-      link:
-        'https://blog.acsendo.com/infografia-tipos-de-cultura-organizacional   ',
+      link: 'https://innovatingpeople.com.mx/blog/cultura-organizacional/',
     },
   ],
   glosario: [
