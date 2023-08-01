@@ -135,9 +135,10 @@ export default {
     {
       tema: 'Estrategias de comunicación organizacional',
       referencia:
-        'Bonilla P. (2022). <em>7 tipos de cultura organizacional más comunes.<em>',
+        'Marmolejo. (2012). <em>DISEÑO DE ESTRATEGIAS DE COMUNICACIÓN ORGANIZACIONAL QUE CONTRIBUYAN AL FORTALECIMIENTO DE ALGUNOS ASPECTOS DE LA CULTURA ORGANIZACIONAL EN LA CÁMARA DE COMERCIO DE TULUÁ.<em>',
       tipo: 'Artículo',
-      link: 'https://innovatingpeople.com.mx/blog/cultura-organizacional/',
+      link:
+        'https://red.uao.edu.co/bitstream/handle/10614/4911/TCS01308.pdf;jsessionid=B0520BBABAF54684CCF691110B469908?sequence=1',
     },
   ],
   glosario: [
