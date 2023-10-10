@@ -13,7 +13,7 @@
               
         
         .col-lg-8.mt-4
-            p La comunicación organizacional se refiere al envío y recepción de información entre individuos interrelacionados o que forman parte de alguna forma de organización; se establece en todas las instituciones y hace parte de la cultura corporativa; está documentada y organizada por medio de un plan de comunicaciones y, a partir de ella, se puede dar entre todos los niveles jerárquicos de la empresa,de manera fluida y efectiva. También, considera instaurar dinámicas de colaboración, combinación y de avance conjunto, dirigidas a los objetivos, o sea, que sirve para la gestión de la organización y la integración de sus distintos elementos, para crear efecto en la productividad y la calidad.
+            p La comunicación organizacional se refiere al envío y recepción de información entre individuos interrelacionados o que forman parte de alguna forma de organización; se establece en todas las instituciones y hace parte de la cultura corporativa; está documentada y organizada por medio de un plan de comunicaciones y, a partir de ella, se puede dar entre todos los niveles jerárquicos de la empresa, de manera fluida y efectiva. También, considera instaurar dinámicas de colaboración, combinación y de avance conjunto, dirigidas a los objetivos, o sea, que sirve para la gestión de la organización y la integración de sus distintos elementos, para crear efecto en la productividad y la calidad.
 
     p.mt-4 Por lo general, pueden existir dos tipos de comunicación organizacional:
 
